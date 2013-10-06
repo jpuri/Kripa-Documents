@@ -1,3 +1,6 @@
-d:
-cd kripa
+SET drive=e:
+SET location=sl-marine/kripa
+cd /
+%drive%
+cd %location%
 rails s -p 80
