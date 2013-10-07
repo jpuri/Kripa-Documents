@@ -1,3 +1,4 @@
+@echo off
 SET drive=e:
 SET location=sl-marine/kripa
 cd /

@@ -11,3 +11,11 @@ FOR /F "TOKENS=2,3 DELIMS=/ " %%A IN ('echo %CDATE%') DO SET yyyy=%%B
 SET date=%dd%%mm%%yyyy%
 
 pg_dump -U%username% -w %database% > %backupfilelocation%%date%%backupfilename%
+
+echo ##################################################
+echo ##################################################
+echo ######## Databse successfully backed up. #########
+echo ##################################################
+echo ##################################################
+pause
+exit
