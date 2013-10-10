@@ -1,7 +1,7 @@
 @echo off
 SET database=kripa
 SET backupfilelocation=e:\sl-marine\
-SET backupfilename=database.dump
+SET backupfilename=_manual_database.dump
 SET username=postgres
 
 FOR /F "TOKENS=1* DELIMS= " %%A IN ('DATE/T') DO SET CDATE=%%B

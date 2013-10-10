@@ -5,6 +5,7 @@ cd /
 %drive%
 cd %location%
 git pull origin master -q
+call rake db:migrate
 echo ##################################################
 echo ##################################################
 echo ######## Application successfully updated ########
